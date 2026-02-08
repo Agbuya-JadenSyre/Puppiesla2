@@ -1,0 +1,80 @@
+body {
+      margin: 0;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+    }
+
+    .flyer {
+      width: 350px;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .label {
+      background: #c8b6a6;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      width: fit-content;
+      margin: -20px 0 10px 15px;
+      position: relative;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #6b4b3e;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 5px 0 15px;
+    }
+
+    ul {
+      text-align: left;
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .circle {
+      width: 35px;
+      height: 35px;
+      background: #6b4b3e;
+      border-radius: 50%;
+      position: absolute;
+      left: -15px;
+      top: 50%;
+    }
+
+    .footer {
+      background: #c8b6a6;
+      padding: 12px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
